@@ -1,0 +1,518 @@
+/*------------------------------------------------------------------- /
+
+Template Name: Kite
+Template URI: http://jwtheme.com/
+Author: JWTheme
+Author URI: http://jwtheme.com/
+Description: Kite Coming Soon HTML Template by JWTheme
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: HTML, Template, Coming Soon, Kite
+
+--------------------------------------------------------------------- */
+
+
+
+
+
+
+/* 1 - Import Google Font
+---------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700);
+/* 1 - Import Google Font End 
+---------------------------------------------------------------------- */
+
+
+
+
+/* 2 - Global Style
+---------------------------------------------------------------------- */
+body{
+	font-family:'Roboto', sans-serif;
+	color:#1a1a1a;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	text-align: center;
+}
+
+a{
+	color: #3498db;
+}
+a:focus{
+	outline:none;
+	outline-offset:inherit;
+}
+.section-style{
+	background-attachment:inherit;
+	background-position:50% 0;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	width:100%;
+	background-size:cover;
+}
+h5{
+	font-size: 14px;
+	margin-top: -12px;
+}
+img{
+	max-width: 180px;
+	height: auto;
+	margin-top: 20px;
+}
+.section-name{
+	font-weight:700;
+	text-align:center;
+	text-transform:uppercase;
+	margin:15px 0 0 0;
+	font-size: 30px;
+	font-family: "Roboto";
+}
+.section-name span{
+	display:inline-block;
+	position:relative;
+	padding-bottom:15px;
+}
+.section-name span:before,
+.section-name span:after{
+	content:"";
+	width:100%;
+	height:10px;
+	border-bottom:1px double #fff;
+	position:absolute;
+	left:0;
+}
+.section-name span:before{
+	bottom:0;
+}
+.section-name span:after{
+	bottom:2px;
+}
+.section-title{
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:300;
+	font-size:80px;
+}
+.section-description{
+	font-weight:300;
+	text-align:center;
+	line-height:30px;
+}
+img{
+
+	
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.items a{
+	position: relative;
+	z-index: 0;
+}
+.items a:after{
+	content: "";
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	border: 5px dotted transparent;
+	border-radius: 100%;
+	position: absolute;
+	top: 100%;
+	left: 10%;
+	margin-left: -50px;
+	opacity: 0;
+	-webkit-transition:all .25s;
+	   -moz-transition:all .25s;
+	    -ms-transition:all .25s;
+	     -o-transition:all .25s;
+	        transition:all .25s;
+}
+.items:hover a:after{
+	top:-85px;
+	margin-left: -35px;
+	width: 60px;
+	height: 60px;
+	border:5px dotted rgb(74, 253, 74);
+	opacity: 1;
+
+	-webkit-animation: spin_circle 2s infinite;
+	   -moz-animation: spin_circle 2s infinite;
+	    -ms-animation: spin_circle 2s infinite;
+	     -o-animation: spin_circle 2s infinite;
+	        animation: spin_circle 2s infinite;
+}
+h5 a:after{
+	display: none;
+}
+
+@-webkit-keyframes spin_circle {
+	0%{
+		-webkit-transform: scale(1,1);
+	}
+	50% {
+		-webkit-transform: scale(1.2,1.2) rotate(20deg);
+	}
+	100% {
+		-webkit-transform: scale(1,1);	
+	}
+}
+@-moz-keyframes spin_circle  
+	0%{
+		-moz-transform: scale(1,1);
+	}
+	50% {
+		-moz-transform: scale(1.2,1.2) rotate(20deg);
+	}
+	100% {
+		-moz-transform: scale(1,1);	
+	}
+}
+@-ms-keyframes spin_circle {
+	0%{
+		-ms-transform: scale(1,1);
+	}
+	50% {
+		-ms-transform: scale(1.2,1.2) rotate(20deg);
+	}
+	100% {
+		-ms-transform: scale(1,1);	
+	}
+}
+@-o-keyframes spin_circle {
+	0%{
+		-o-transform: scale(1,1);
+	}
+	50% {
+		-o-transform: scale(1.2,1.2) rotate(20deg);
+	}
+	100% {
+		-o-transform: scale(1,1);	
+	}
+}
+@keyframes spin_circle {
+	0%{
+		transform: scale(1,1);
+	}
+	50% {
+		transform: scale(1.2,1.2) rotate(20deg);
+	}
+	100% {
+		transform: scale(1,1);	
+	}
+}
+
+
+/* 2 - Global Style End 
+---------------------------------------------------------------------- */
+
+
+
+
+
+/* 8 - Footer Section  
+---------------------------------------------------------------------- */
+#footer-section{
+	width: 100%;
+	min-height: 80px;
+}
+#footer-section p{
+	margin: 0;
+	padding: 25px 15px; 
+	text-align: center;
+	line-height: 30px;
+	color: #1a1a1a;
+}
+#footer-section p a{
+	color: #3498db;
+}
+/* 8 - Footer Section End 
+---------------------------------------------------------------------- */
+
+
+
+
+
+/* 9 - Media Query 
+---------------------------------------------------------------------- */
+
+/* 9.1 - media screen and (max-width: 992px)
+------------------------------------------------ */
+@media screen and (max-width: 992px){
+	.container{
+		width:100%;
+		max-width:830px;
+	}
+}
+@media (min-width: 992px){
+	.container{
+		width:100%;
+		max-width:830px;
+	}
+}
+
+
+/* 9.1 - media screen and (max-width: 992px)  End
+------------------------------------------------ */
+
+
+
+
+/* 9.2 - media screen and (max-width: 768px)
+------------------------------------------------ */
+
+
+
+@media screen and (max-width: 768px){
+	.section-title{
+		font-size:40px;
+	}
+	#contact-form #first_name{
+		border-right:1px solid #fff;
+	}
+	#contact-form #subject{
+		border-top:0px solid transparent;
+	}
+	#contact-form  #email{
+		border-right:1px solid #fff;
+	}
+		#contact-form  .btn{
+	border-left:1px solid #fff;
+	}
+}
+
+/* 9.2 - media screen and (max-width: 768px) End
+------------------------------------------------ */
+
+
+/* 9.3 - media screen and (max-width: 1170px)
+------------------------------------------------ */
+@media (min-width: 1170px){
+	.container{
+		width:830px;
+	}
+}
+/* 9.3 - media screen and (max-width: 1170px) End
+------------------------------------------------ */
+
+
+/* 9 - Media Query End
+---------------------------------------------------------------------- */
+
+/* 10 - Preloader
+---------------------------------------------------------------------- */
+#preloader{
+	position: fixed;
+	width: 100%;
+	background: rgba(255,255,255,.97);
+	height: 100%;
+	z-index: 99999999999;
+
+}
+
+#loader {
+ 	position: absolute;
+ 	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 175px;
+	height: 175px;
+	margin: auto;
+}
+#loader .dot {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 87.5px;
+	height: 100%;
+	margin: auto;
+}
+#loader .dot:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 87.5px;
+	height: 87.5px;
+	border-radius: 100%;
+	-webkit-transform: scale(0);
+	   -moz-transform: scale(0);
+	    -ms-transform: scale(0);
+	     -o-transform: scale(0);
+	        transform: scale(0);
+}
+#loader .dot:nth-child(7n+1) {
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+#loader .dot:nth-child(7n+1):before {
+	background: #00ff80;
+	-webkit-animation: load 0.8s linear 0.1s infinite;
+	   -moz-animation: load 0.8s linear 0.1s infinite;
+	    -ms-animation: load 0.8s linear 0.1s infinite;
+	     -o-animation: load 0.8s linear 0.1s infinite;
+	        animation: load 0.8s linear 0.1s infinite;
+}
+#loader .dot:nth-child(7n+2) {
+	-webkit-transform: rotate(90deg);
+	   -moz-transform: rotate(90deg);
+	    -ms-transform: rotate(90deg);
+	     -o-transform: rotate(90deg);
+	        transform: rotate(90deg);
+}
+#loader .dot:nth-child(7n+2):before {
+background: #00ffea;
+	-webkit-animation: load 0.8s linear 0.2s infinite;
+	   -moz-animation: load 0.8s linear 0.2s infinite;
+	    -ms-animation: load 0.8s linear 0.2s infinite;
+	     -o-animation: load 0.8s linear 0.2s infinite;
+	        animation: load 0.8s linear 0.2s infinite;
+}
+#loader .dot:nth-child(7n+3) {
+	-webkit-transform: rotate(135deg);
+	   -moz-transform: rotate(135deg);
+	    -ms-transform: rotate(135deg);
+	     -o-transform: rotate(135deg);
+	        transform: rotate(135deg);
+}
+#loader .dot:nth-child(7n+3):before {
+background: #00aaff;
+	-webkit-animation: load 0.8s linear 0.3s infinite;
+	   -moz-animation: load 0.8s linear 0.3s infinite;
+	    -ms-animation: load 0.8s linear 0.3s infinite;
+	     -o-animation: load 0.8s linear 0.3s infinite;
+	        animation: load 0.8s linear 0.3s infinite;
+}
+#loader .dot:nth-child(7n+4) {
+	-webkit-transform: rotate(180deg);
+	   -moz-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	     -o-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}
+#loader .dot:nth-child(7n+4):before {
+	background: #0040ff;
+	-webkit-animation: load 0.8s linear 0.4s infinite;
+	   -moz-animation: load 0.8s linear 0.4s infinite;
+	    -ms-animation: load 0.8s linear 0.4s infinite;
+	     -o-animation: load 0.8s linear 0.4s infinite;
+	        animation: load 0.8s linear 0.4s infinite;
+}
+#loader .dot:nth-child(7n+5) {
+	-webkit-transform: rotate(225deg);
+	   -moz-transform: rotate(225deg);
+	    -ms-transform: rotate(225deg);
+	     -o-transform: rotate(225deg);
+	        transform: rotate(225deg);
+}
+#loader .dot:nth-child(7n+5):before {
+	background: #2a00ff;
+	-webkit-animation: load 0.8s linear 0.5s infinite;
+	   -moz-animation: load 0.8s linear 0.5s infinite;
+	    -ms-animation: load 0.8s linear 0.5s infinite;
+	     -o-animation: load 0.8s linear 0.5s infinite;
+	        animation: load 0.8s linear 0.5s infinite;
+}
+#loader .dot:nth-child(7n+6) {
+	-webkit-transform: rotate(270deg);
+	   -moz-transform: rotate(270deg);
+	    -ms-transform: rotate(270deg);
+	     -o-transform: rotate(270deg);
+	        transform: rotate(270deg);
+}
+#loader .dot:nth-child(7n+6):before {
+	background: #9500ff;
+	-webkit-animation: load 0.8s linear 0.6s infinite;
+	   -moz-animation: load 0.8s linear 0.6s infinite;
+	    -ms-animation: load 0.8s linear 0.6s infinite;
+	     -o-animation: load 0.8s linear 0.6s infinite;
+	        animation: load 0.8s linear 0.6s infinite;
+}
+#loader .dot:nth-child(7n+7) {
+	-webkit-transform: rotate(315deg);
+	   -moz-transform: rotate(315deg);
+	    -ms-transform: rotate(315deg);
+	     -o-transform: rotate(315deg);
+	        transform: rotate(315deg);
+}
+#loader .dot:nth-child(7n+7):before {
+	background: magenta;
+	-webkit-animation: load 0.8s linear 0.7s infinite;
+	   -moz-animation: load 0.8s linear 0.7s infinite;
+	    -ms-animation: load 0.8s linear 0.7s infinite;
+	     -o-animation: load 0.8s linear 0.7s infinite;
+	        animation: load 0.8s linear 0.7s infinite;
+}
+#loader .dot:nth-child(7n+8) {
+	-webkit-transform: rotate(360deg);
+	   -moz-transform: rotate(360deg);
+	    -ms-transform: rotate(360deg);
+	     -o-transform: rotate(360deg);
+	        transform: rotate(360deg);
+}
+#loader .dot:nth-child(7n+8):before {
+	background: #ff0095;
+	-webkit-animation: load 0.8s linear 0.8s infinite;
+	   -moz-animation: load 0.8s linear 0.8s infinite;
+	    -ms-animation: load 0.8s linear 0.8s infinite;
+	     -o-animation: load 0.8s linear 0.8s infinite;
+	        animation: load 0.8s linear 0.8s infinite;
+}
+#loader .lading{
+	background-image: url(../images/loading.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -40px;
+	height: 20px;
+	width: 180px;
+	background-position: 50% 50%;
+}
+
+@-webkit-keyframes load {
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(1);
+	}
+}
+@-moz-keyframes load  {
+	100% {
+		opacity: 0;
+		-moz-transform: scale(1);
+	}
+}
+@-ms-keyframes load {
+	100% {
+		opacity: 0;
+		-ms-transform: scale(1);
+	}
+}
+@-o-keyframes load {
+	100% {
+		opacity: 0;
+		-o-transform: scale(1);
+	}
+}
+@keyframes load {
+	100% {
+		opacity: 0;
+		transform: scale(1);
+	}
+}
+
+/* 10 - Preloader End
+---------------------------------------------------------------------- */
+
+
+
+

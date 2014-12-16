@@ -1,0 +1,186 @@
+/*------------------------------------------------------------------- /
+
+Template Name: Kite
+Template URI: http://jwtheme.com/
+Author: JWTheme
+Author URI: http://jwtheme.com/
+Description: Kite Coming Soon HTML Template by JWTheme
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: HTML, template, Coming Soon, kite
+
+
+Color Variation Style Sheet 
+
+Color Name 			: Alizarin
+Color Code 			: #e74c3c
+Color Chosen From 	: http://flatuicolors.com/
+
+---------------------------------------------------------------------- */
+
+
+/* Global Style
+---------------------------------------------------------------------- */
+body{
+	color:#e74c3c;
+}
+
+.section-name span:before,
+.section-name span:after{
+	border-bottom:1px double #e74c3c;
+}
+
+.next-section a span{
+	border:2px solid #e74c3c;
+	border-left-color:transparent;
+	border-top-color:transparent;
+}
+.navbar-default .navbar-toggle,
+.form-control,
+.form-control:focus{
+	border-color:#e74c3c;
+}
+.social-btn-container .social-btn-box{
+	border:1px solid #e74c3c;
+}
+.social-btn-container .social-btn-box a{
+	color:#e74c3c;
+}
+
+.social-btn-box:hover{
+	border-color:transparent;
+}
+.btn:hover{
+	color: #ffffff !important;
+}
+
+ 
+/* Global Style End
+---------------------------------------------------------------------- */
+
+
+/*  Main Menu
+---------------------------------------------------------------------- */
+.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+	color:#e74c3c;
+}
+
+/* Main Menu End 
+---------------------------------------------------------------------- */
+
+
+
+
+/* Page Top Section 
+---------------------------------------------------------------------- */
+.site-title:before,
+.site-title:after{
+	border-bottom:1px double #e74c3c;
+}
+.time-box{
+	border:1px solid #e74c3c;
+}
+/* Page Top Section End 
+---------------------------------------------------------------------- */
+
+
+
+
+/* About Us Section
+---------------------------------------------------------------------- */
+.team-container figcaption{
+	border:1px solid #e74c3c;
+	border-top-color:transparent;
+}
+
+/* About Us Section End 
+---------------------------------------------------------------------- */
+
+
+
+
+/* Subscribe Section
+---------------------------------------------------------------------- */
+form.news-letter .form-control{
+	border-right-color:transparent;
+}
+form.news-letter .btn{
+	border:1px solid #e74c3c;
+}
+form.news-letter .btn:hover{
+	color:#3498db;
+}
+/* Subscribe Section End 
+---------------------------------------------------------------------- */
+
+
+
+
+/* Contact Section
+---------------------------------------------------------------------- */
+#contact-form #first_name{
+	border-right:0px solid transparent;
+	border-bottom:0px solid transparent;
+}
+#contact-form #last_name{
+	border-bottom:0px solid transparent;
+}
+#contact-form  #email{
+	border-right:0px solid transparent;
+}
+#contact-form textarea.form-control{
+	border-top:0px solid transparent;
+}
+#contact-form  .btn{
+	border:1px solid #e74c3c;
+	border-left:0px solid transparent;
+	border-top:0px solid transparent;
+}
+#contact-form  .btn:hover{
+/*	color:#3498db;*/
+}
+#footer-section{
+	background-color: #e74c3c;
+	
+}
+#footer-section a{
+	color: #ffffff !important;
+}
+/* Contact Section End 
+---------------------------------------------------------------------- */
+
+
+
+
+
+
+/*  media screen and (max-width: 768px)
+---------------------------------------------------------------------- */
+
+@media screen and (max-width: 768px){
+	.section-title{
+		font-size:40px;
+	}
+	#contact-form #first_name{
+		border-right:1px solid #e74c3c;
+	}
+	#contact-form #subject{
+		border-top:0px solid transparent;
+	}
+	#contact-form  #email{
+		border-right:1px solid #e74c3c;
+	}
+		#contact-form  .btn{
+	border-left:1px solid #e74c3c;
+	}
+}
+
+/*  media screen and (max-width: 768px) End
+---------------------------------------------------------------------- */
+
