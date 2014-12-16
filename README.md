@@ -21,4 +21,4 @@ Built with Bootstrap v3.1.1
 Font Awesome
 
 
--Designed by <a href="http://themeforest.net/user/bigpsfan"> and Developed by <a href="http://jeweltheme.com">Jewel Theme</a>
+-Designed by <a href="http://themeforest.net/user/bigpsfan">Bigpsfan</a> and Developed by <a href="http://jeweltheme.com">Jewel Theme</a>
