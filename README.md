@@ -5,7 +5,9 @@ Kite Coming Soon Template is w3c code validated and carefully designed with atte
 Kite is a modern, minimal, creative fully responsive Under Construction/Coming Soon Template that suits for any creative and business company/agency.
 
 Kite has 4 background variations and 8 color schemes. Parallax effect also added with any kind of devices.
-
+<br/>
+<h3>See Demo</h3>
+<br/>
 <h2>Features Of Kite Free Responsive Coming Soon HTML5 Template</h2> :
 <ol>
 <li>8 Color schemes</li>
