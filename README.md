@@ -7,7 +7,7 @@ Kite is a modern, minimal, creative fully responsive Under Construction/Coming S
 Kite has 4 background variations and 8 color schemes. Parallax effect also added with any kind of devices.
 <br/>
 <br/>
-<a href="http://jeweltheme.com/html/kite/">See Demo</a>
+<a href="http://demos.jeweltheme.com/kite/">See Demo</a>
 <br/>
 <h2>Features Of Kite Free Responsive Coming Soon HTML5 Template</h2> :
 <ol>
