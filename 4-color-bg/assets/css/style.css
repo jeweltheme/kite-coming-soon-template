@@ -746,6 +746,11 @@ form.news-letter .btn{
 form.news-letter .btn:hover{
 	color:#3498db;
 }
+.subscribe-hide {
+	position: relative;
+}
+
+
 #subscribe-loading {
 	display: none;
 	line-height: 45px;

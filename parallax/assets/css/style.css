@@ -756,6 +756,11 @@ form.news-letter .btn:hover{
 	font-size: 1.125em;
 }
 
+.subscribe-hide {
+	position: relative;
+}
+
+
 .subscribe-error{
 	color: #ffffff;
 	position: absolute;
