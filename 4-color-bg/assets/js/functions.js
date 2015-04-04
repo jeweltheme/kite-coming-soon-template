@@ -107,51 +107,25 @@ jQuery(document).ready(function($) {
 
 
 
-	/* Subscribe
-	-------------------------------------------------------------------*/
 
-    $('#subscribe-submit').click(function () {
-        $('.subscribe-error').hide();
-
-        var emailReg = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
-        var emailVal = $('#subscribe-email').val();
-
-        if (emailVal == "" || emailVal == "Email Address *") {
-            $('.subscribe-error').html('<i class="fa fa-exclamation"></i> Email address required.').fadeIn();
-            return false;
-
-        } else if (!emailReg.test(emailVal)) {
-            $('.subscribe-error').html('<i class="fa fa-exclamation"></i> Invalid email address.').fadeIn();
-            return false;
-        }
-
-        var data_string = $('.news-letter').serialize();
-
-        $('#subscribe-submit').hide();
-        $('#subscribe-loading').fadeIn();
-        $('.subscribe-error').fadeOut();
-
-        $.ajax({
-            type: "POST",
-            url: "php/subscribe.php",
-            data: data_string,
-
-            //success
-            success: function (data) {
-                $('.subscribe-hide').hide();
-                $('.subscribe-message').html('<i class="fa fa-check contact-success"></i><div>Thank you! You have been subscribed.<div>').fadeIn();
-            },
-            error: function (data) {
-                $('.subscribe-hide').hide();
-                $('.subscribe-message').html('<i class="fa fa-exclamation contact-error"></i><div>Something went wrong, please try again later.<div>').fadeIn();
-            }
-
-        }) //end ajax call
-        return false;
+       /* Subscribe
+    -------------------------------------------------------------------*/
+    $(".news-letter").ajaxChimp({
+        callback: mailchimpResponse,
+        url: "http://jeweltheme.us10.list-manage.com/subscribe/post?u=a3e1b6603a9caac983abe3892&amp;id=257cf1a459" // Replace your mailchimp post url inside double quote "".  
     });
 
-	/* Subscribe End
-	-------------------------------------------------------------------*/
+    function mailchimpResponse(resp) {
+         if(resp.result === 'success') {
+         
+            $('.alert-success').html(resp.msg).fadeIn().delay(3000).fadeOut();
+            
+        } else if(resp.result === 'error') {
+            $('.alert-warning').html(resp.msg).fadeIn().delay(3000).fadeOut();
+        }  
+    };
+
+
 
 
 

@@ -749,7 +749,7 @@ form.news-letter .btn:hover{
 	font-size: 1.125em;
 }
 
-.subscribe-error{
+.alert-warning{
 	color: #ffffff;
 	position: absolute;
 	background: rgba(52, 152, 219,1);
@@ -759,7 +759,7 @@ form.news-letter .btn:hover{
 	padding: 5px 10px;
 	border-radius: 3px;
 }
-.subscribe-error:after{
+.alert-warning:after{
 	position: absolute;
 	content: "";
 	width: 0;
