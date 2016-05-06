@@ -11,7 +11,7 @@ Kite has 4 background variations and 8 color schemes. Parallax effect also added
 <br/>
 <br/>
 
-<h3><a href="http://demos.jeweltheme.com/kite/">See Demo's</a> </h3> <br><br/>
+<h3><a href="http://demos.jeweltheme.com/kite/">See Demo's</a> </h3> <br>
 
 <h2>Features Of Kite Free Responsive Coming Soon HTML5 Template</h2> :
 <ol>
