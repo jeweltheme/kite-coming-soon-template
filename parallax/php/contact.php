@@ -6,7 +6,7 @@ if (filter_var($_REQUEST['contact_email'], FILTER_VALIDATE_EMAIL)):
   $subject = 'Email from kite Demo Page'; // Subject of your email
 
   // Receiver email address
-  $to = 'shariar@shariarbd.com';  //Change the email address by yours
+  $to = 'labudiu@gmail.com';  //Change the email address by yours
  
 
   // prepare header
